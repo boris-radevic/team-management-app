@@ -1,0 +1,16 @@
+﻿::deep thead tr {
+    height: 2.375rem;
+    border-top: 1px solid #EEF0F2;
+    border-bottom: 1px solid #EEF0F2;
+}
+
+::deep thead tr th .col-header-content .col-title {
+        font-weight: 600 !important;
+        font-size: 10px;
+        color: #A4B1B9;
+}
+
+::deep tbody tr {
+    height: 4.5rem;
+    border-top: 1px solid #EEF0F2;
+}

@@ -1,0 +1,46 @@
+@inject NavigationManager NavigationManager
+
+@code{
+    private string[] Breadcrumbs => GetBreadcrumbs();
+
+    private string[] GetBreadcrumbs(){
+        var uri = NavigationManager.Uri;
+        var path = new Uri(uri).AbsolutePath;
+
+        return path.Split('/',StringSplitOptions.RemoveEmptyEntries);
+    }
+}
+
+<nav>
+    <ul class="flex flex-row space-x-3">
+            <li class="flex flex-row">
+                <div class="flex flex-row items-center justify-center">
+                    <NavLink class="hover:text-blue-800 font-semibold" href="/">Home</NavLink>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg> 
+                </div>
+                
+            </li>
+            
+
+        @foreach(var segment in Breadcrumbs){
+            var segmentPath = "/" + string.Join("/", Breadcrumbs.TakeWhile(seg => seg != segment).Concat(new[] { segment }));
+            <li>
+                <div class="flex flex-row items-center justify-center">
+                @if(segment != Breadcrumbs.Last())
+                {
+                        <NavLink href="@segmentPath">@segment</NavLink>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                }
+                else
+                {
+                    <span>@segment</span>
+                }
+                </div> 
+            </li>
+        }        
+    </ul>
+</nav>

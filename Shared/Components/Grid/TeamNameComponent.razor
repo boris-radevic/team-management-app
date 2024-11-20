@@ -1,0 +1,11 @@
+@using TeamManagementApp.Models
+
+<div class="flex flex-row space-x-2">
+    <img class="w-6" src="/Images/team-icon.png" />
+    <div>@Node.Title</div>
+</div>
+
+@code {
+    [Parameter]
+    public GridNode Node { get; set; } = null!;
+}

@@ -1,0 +1,21 @@
+﻿@page "/dashboard"
+@using System.Text.Json
+@using TeamManagementApp.Models
+@using Services.Contracts
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using TeamManagementApp.Shared.Components.Grid
+
+@inject HttpClient Http
+@inject IHierarchyService HierarchyService
+
+
+<div class="flex flex-col p-9 space-y-16">
+    <div class="flex flex-row justify-between items-center">
+        <TeamManagementApp.Shared.Components.BreadcrumbsComponent/>
+        <div class="flex flex-row items-center space-x-4">
+            <div class="border p-3 items-center justify-center  cursor-pointer border-gray-800 rounded-md hover:bg-gray-800 hover:text-white">New Team</div>
+            <div class="border p-3 items-center justify-center  cursor-pointer border-gray-800 rounded-md hover:bg-gray-800 hover:text-white">New Job</div>
+        </div>
+    </div>
+    <TeamGridComponent/>
+</div>

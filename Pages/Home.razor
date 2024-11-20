@@ -1,0 +1,21 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Home</PageTitle>
+
+<div class="flex flex-col space-y-5">
+    <h1 class="text-3xl">Welcome to Team Management App</h1>
+
+    <div class="border p-3 items-center justify-center w-48 cursor-pointer border-gray-800 rounded-md hover:bg-gray-800 hover:text-white" @onclick="GoToDashboard">
+        Manage you teams ⮞
+    </div>
+</div>
+
+
+
+@code{
+    private void GoToDashboard(){
+        NavigationManager.NavigateTo("/dashboard");
+    }
+}
+

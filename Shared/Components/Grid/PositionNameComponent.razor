@@ -1,0 +1,28 @@
+@using TeamManagementApp.Models
+
+@if (Node.AdditionalData is PositionAdditionalData addData)
+{
+        <div class="flex flex-col">
+            @if (addData.Status == 2)
+            {
+                <div class="flex flex-row items-center space-x-4">
+                    <img class="h-10" src="/Images/user.png" />
+                    <div>
+                        <div>@addData.FirstName</div>
+                        <div>@addData.Email</div>
+                    </div>
+                </div>
+
+            }
+            else
+            {
+                <div>na</div>
+            }
+        </div>
+    
+}
+
+@code {
+    [Parameter]
+    public GridNode Node { get; set; } = null!;
+}

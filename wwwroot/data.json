@@ -1,0 +1,478 @@
+{
+  "teams": [
+    {
+      "id": "aab48955-6f5d-4aad-b5a5-f13de906688b",
+      "StructuralId": 2,
+      "title": "Team A",
+      "teams": [],
+      "positionDefinitions": [
+        {
+          "id": "c6eae40f-e96e-42c6-ba79-0904c9d0b00e",
+          "StructuralId": 3,
+          "title": "Manager",
+          "roleId": "effd302d-6447-4759-bf7f-cc8f11aac53a",
+          "positions": [
+            {
+              "id": "7f995992-6e55-4672-a391-cd957c378561",
+              "StructuralId": 3,
+              "title": "Manager",
+              "user": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "email": "",
+                "username": "",
+                "firstName": "",
+                "secondName": "",
+                "imageUrl": "",
+                "phoneNumber": "",
+                "phoneNumberConfirmed": false,
+                "roles": []
+              },
+              "role": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "title": "",
+                "tags": []
+              },
+              "status": 1,
+              "inviteData": {
+                "AutoConfirm": false,
+                "Email": "",
+                "Name": ""
+              },
+              "positionDefinitionId": "c6eae40f-e96e-42c6-ba79-0904c9d0b00e"
+            }
+          ],
+          "teamId": "aab48955-6f5d-4aad-b5a5-f13de906688b"
+        },
+        {
+          "id": "1d87d189-d317-4769-b962-27cb5f73102f",
+          "StructuralId": 4,
+          "title": "Worker",
+          "roleId": "f27bc803-5fa4-44c7-ab47-c4c97f157395",
+          "positions": [],
+          "teamId": "aab48955-6f5d-4aad-b5a5-f13de906688b"
+        }
+      ],
+      "parentTeamId": "ef617b39-41ea-45e5-ace3-490f89016fa9"
+    },
+    {
+      "id": "62a9c0a5-3d04-4a7e-9fbd-ed05e57a4c19",
+      "StructuralId": 5,
+      "title": "Team C",
+      "teams": [],
+      "positionDefinitions": [
+        {
+          "id": "7ca1d8a0-8641-48d8-af0b-6170c1bbd8b9",
+          "StructuralId": 7,
+          "title": "Manager",
+          "roleId": "effd302d-6447-4759-bf7f-cc8f11aac53a",
+          "positions": [
+            {
+              "id": "eb5a0b74-4d07-41b9-a086-9ecd9aaedf31",
+              "StructuralId": 8,
+              "title": "Manager",
+              "user": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "email": "",
+                "username": "",
+                "firstName": "",
+                "secondName": "",
+                "imageUrl": "",
+                "phoneNumber": "",
+                "phoneNumberConfirmed": false,
+                "roles": []
+              },
+              "role": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "title": "",
+                "tags": []
+              },
+              "status": 1,
+              "inviteData": {
+                "AutoConfirm": false,
+                "Email": "",
+                "Name": ""
+              },
+              "positionDefinitionId": "7ca1d8a0-8641-48d8-af0b-6170c1bbd8b9"
+            }
+          ],
+          "teamId": "62a9c0a5-3d04-4a7e-9fbd-ed05e57a4c19"
+        }
+      ],
+      "parentTeamId": "ef617b39-41ea-45e5-ace3-490f89016fa9"
+    },
+    {
+      "id": "9b64106c-9f98-4a54-aae4-a21b07d2f4e6",
+      "StructuralId": 6,
+      "title": "Team B",
+      "teams": [],
+      "positionDefinitions": [
+        {
+          "id": "0d9bd961-e3c7-4545-b615-97329d03dee6",
+          "StructuralId": 8,
+          "title": "Manager",
+          "roleId": "effd302d-6447-4759-bf7f-cc8f11aac53a",
+          "positions": [
+            {
+              "id": "df9c4594-dc5d-4c92-a391-33ed0115cac1",
+              "StructuralId": 9,
+              "title": "Manager",
+              "user": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "email": "",
+                "username": "",
+                "firstName": "",
+                "secondName": "",
+                "imageUrl": "",
+                "phoneNumber": "",
+                "phoneNumberConfirmed": false,
+                "roles": []
+              },
+              "role": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "title": "",
+                "tags": []
+              },
+              "status": 1,
+              "inviteData": {
+                "AutoConfirm": false,
+                "Email": "",
+                "Name": ""
+              },
+              "positionDefinitionId": "0d9bd961-e3c7-4545-b615-97329d03dee6"
+            }
+          ],
+          "teamId": "9b64106c-9f98-4a54-aae4-a21b07d2f4e6"
+        }
+      ],
+      "parentTeamId": "ef617b39-41ea-45e5-ace3-490f89016fa9"
+    }
+  ],
+  "positionDefinitions": [
+    {
+      "id": "fd0081e4-04c6-4714-a4d7-1d905e93c00d",
+      "StructuralId": 1,
+      "title": "Manager",
+      "roleId": "effd302d-6447-4759-bf7f-cc8f11aac53a",
+      "positions": [
+        {
+          "id": "ba13bf32-f815-445d-bb2c-9dc017c8afe7",
+          "StructuralId": 1,
+          "title": " Manager 1",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 2,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "john@email.com",
+            "Name": "john"
+          },
+          "positionDefinitionId": "fd0081e4-04c6-4714-a4d7-1d905e93c00d"
+        },
+        {
+          "id": "cd9005bf-da96-4cbc-af15-469d6a32215c",
+          "StructuralId": 2,
+          "title": "Manager",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 1,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "",
+            "Name": ""
+          },
+          "positionDefinitionId": "fd0081e4-04c6-4714-a4d7-1d905e93c00d"
+        },
+        {
+          "id": "f5ca962a-6222-4876-a91e-d111d205a76c",
+          "StructuralId": 17,
+          "title": "Manager",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 1,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "",
+            "Name": ""
+          },
+          "positionDefinitionId": "fd0081e4-04c6-4714-a4d7-1d905e93c00d"
+        }
+      ],
+      "teamId": "ef617b39-41ea-45e5-ace3-490f89016fa9"
+    },
+    {
+      "id": "aead9100-138a-4d57-b6bc-8293906115ea",
+      "StructuralId": 2,
+      "title": "Worker",
+      "roleId": "f27bc803-5fa4-44c7-ab47-c4c97f157395",
+      "positions": [
+        {
+          "id": "70831e36-dc16-4de6-80da-f0edfc412a75",
+          "StructuralId": 7,
+          "title": "Worker",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 1,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "",
+            "Name": ""
+          },
+          "positionDefinitionId": "aead9100-138a-4d57-b6bc-8293906115ea"
+        },
+        {
+          "id": "82a06bf1-205e-4f4b-b315-d1fb69aedd3f",
+          "StructuralId": 10,
+          "title": "Worker",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 1,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "",
+            "Name": ""
+          },
+          "positionDefinitionId": "aead9100-138a-4d57-b6bc-8293906115ea"
+        },
+        {
+          "id": "21b0f698-1c40-49bf-bc8e-d5b03ed8e2a1",
+          "StructuralId": 11,
+          "title": "Worker",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 1,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "",
+            "Name": ""
+          },
+          "positionDefinitionId": "aead9100-138a-4d57-b6bc-8293906115ea"
+        },
+        {
+          "id": "ebfd4c04-e527-45c8-a199-1f7d2536aff6",
+          "StructuralId": 12,
+          "title": "Worker X",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 2,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "johana@email.com",
+            "Name": "johana"
+          },
+          "positionDefinitionId": "aead9100-138a-4d57-b6bc-8293906115ea"
+        },
+        {
+          "id": "e8240dc5-a313-401d-82f1-dcbd928b3951",
+          "StructuralId": 13,
+          "title": "Worker",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 1,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "",
+            "Name": ""
+          },
+          "positionDefinitionId": "aead9100-138a-4d57-b6bc-8293906115ea"
+        },
+        {
+          "id": "27bb5e9f-dd88-4246-bf95-048bd7db785c",
+          "StructuralId": 14,
+          "title": "Worker",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 1,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "",
+            "Name": ""
+          },
+          "positionDefinitionId": "aead9100-138a-4d57-b6bc-8293906115ea"
+        },
+        {
+          "id": "721bb9ab-8595-40ea-9f46-d7e850197774",
+          "StructuralId": 15,
+          "title": "Worker",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 1,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "",
+            "Name": ""
+          },
+          "positionDefinitionId": "aead9100-138a-4d57-b6bc-8293906115ea"
+        },
+        {
+          "id": "f4d52628-ab8e-40f9-88fe-f22a026080c4",
+          "StructuralId": 16,
+          "title": "Worker",
+          "user": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "email": "",
+            "username": "",
+            "firstName": "",
+            "secondName": "",
+            "imageUrl": "",
+            "phoneNumber": "",
+            "phoneNumberConfirmed": false,
+            "roles": []
+          },
+          "role": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "",
+            "tags": []
+          },
+          "status": 1,
+          "inviteData": {
+            "AutoConfirm": false,
+            "Email": "",
+            "Name": ""
+          },
+          "positionDefinitionId": "aead9100-138a-4d57-b6bc-8293906115ea"
+        }
+      ],
+      "teamId": "ef617b39-41ea-45e5-ace3-490f89016fa9"
+    }
+  ]
+}
